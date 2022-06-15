@@ -106,7 +106,7 @@ const VoxelDog = () => {
        w={[280, 480, 500]}
         h={[280, 480]}     
        position="relative"
-       top={-550}
+       
         >
             {loading && (
                 <Spinner size="xl" position="absolute" 
