@@ -1,13 +1,13 @@
-import { Box, Container, Heading, Image, useColorModeValue, Link, Button  } from '@chakra-ui/react';
+import { Box, Container, Heading, Image, useColorModeValue, Link, Button, SimpleGrid, List, ListItem, Icon } from '@chakra-ui/react';
 import Navbar from '../components/layout/navbar';
 import Section from '../components/layout/section'
 import Paragraph from '../components/layout/paragraph'
-import Layout from '../components/layout/article';
 import { ChevronRightIcon } from '@chakra-ui/icons';
 import { Biosection, BioYear } from '../components/layout/bio'
 import NextLink from 'next/link'
 import VoxelDog from '../components/layout/voxel-dog';
 import NoSsr from '../components/layout/no-ssr';
+import { IoLogoTwitter , IoLogoGithub, IoLogoLinkedin} from 'react-icons/io5'
 
 function Page() {
   return (
@@ -65,21 +65,17 @@ function Page() {
          <Button rightIcon={<ChevronRightIcon/>} colorScheme="teal">Portfolio</Button>
          
         </Link>
+        
       </Box>
     </Section>
     <Section delay={0.2}>
         <Heading as="h3" variant="section-title" textDecoration="underline" lineHeight={1.8}>
           Bio
         </Heading>
-        <Biosection>
-          <BioYear>
-            1992
-          </BioYear>
-          Born
-        </Biosection>
+        
         <Biosection>
         <BioYear>2009</BioYear>
-          SSCE
+          Senior School Certificate Examination
         </Biosection>
         <Biosection>
           <BioYear>2015</BioYear>
@@ -89,17 +85,24 @@ function Page() {
           </NextLink>
         </Biosection>
         <Biosection>
+          <BioYear>2015</BioYear>
+          Worked at  {' '}
+          <NextLink href="https://teacherswithoutborders.org/" >
+            <Link href="https://teacherswithoutborders.org/" target="_blank" rel="noreferrer">Teachers Without Borders</Link>
+          </NextLink>
+        </Biosection>
+        <Biosection>
           <BioYear>2017</BioYear>
           Worked at  {' '}
           <NextLink href="https://stableshield.com/" >
-            <Link href="https://stableshield.com/" target="_blank" rel="noreferrer">Stable Shield Solutions, Nigeria</Link>
+            <Link href="https://stableshield.com/" target="_blank" rel="noreferrer">Stable Shield Solutions</Link>
           </NextLink>
         </Biosection>
         <Biosection>
           <BioYear>2019</BioYear>
           Worked at { ' '}
           <NextLink href="https://www.upgradedera.com/" >
-            <Link href='https://www.upgradedera.com/' target="_blank" rel="noreferrer">Upgraded Era Solutions, Nigeria </Link>
+            <Link href='https://www.upgradedera.com/' target="_blank" rel="noreferrer">Upgraded Era Solutions </Link>
           </NextLink>
         </Biosection>
         <Biosection>
@@ -117,6 +120,27 @@ function Page() {
       <Paragraph>
         Art, Blogging, Coding, Music, Swimming, Board Games.
       </Paragraph>
+    </Section>
+    <Section delay={0.3}>
+      <Heading as="h3" variant="section-title" textDecoration="underline" lineHeight={1.8}>
+        On the Web
+      </Heading>
+      <List>
+        <ListItem>
+          <Link href='https://github.com/herraphfx' target='_blank'>
+            <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub} />}>
+              @herraphfx
+            </Button>
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Link href='https://www.linkedin.com/in/henry-oko/' target='_blank'>
+            <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoLinkedin} />}>
+              @henry-oko
+            </Button>
+          </Link>
+        </ListItem>
+      </List>
     </Section>
     </Container>
     </div>

@@ -23,7 +23,7 @@ function Logo() {
    
   return (
     <Link href='/' passHref>
-        <a href="/">
+        <a >
             <LogoBox>
                 <Image src={footPrintImg} width={20} height={20} alt="logo"/>
                 <Text color={useColorModeValue('gray.800', 'whiteAplha.900')}

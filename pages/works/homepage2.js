@@ -16,31 +16,31 @@ const Work = () => {
         
             <Container>
                 <Title>
-                    Puckman Returns <Badge>2022</Badge>
+                    Homepage(new)  <Badge>2022</Badge>
                 </Title>
                 <P>
-                    A Modern pacman game with new User Interface and Simple Grid. Built for entertainment and the code is available for improvement.
+                   A Homepage Created by Henry using React. 
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href="https://puckman-returns.netlify.app/">
-                            Puckman Game <ExternalLinkIcon mx="2px"/>
+                        <Link >
+                           Homepage(new) <ExternalLinkIcon mx="2px"/>
                         </Link>
                     </ListItem>
                     <ListItem>
                         <Meta>GitHub</Meta>
-                        <Link href="https://github.com/WayneA330/Hackathon_1">
+                        <Link href="https://github.com/herraphfx/advancedportfolio">
                             Source Code <ExternalLinkIcon mx="2px"/>
                         </Link>
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>Javascript, HTML, CSS, Mathematics :D</span>
+                        <span>Javascript, React, NextJS, ChakraJS, ThreeJS, Framer Motion</span>
                     </ListItem>
                 </List>
 
-                <WorkImage src="/images/work/puckman.png"/>
+                <WorkImage src="/images/work/homepage2.png"/>
             </Container>
         
         </div>

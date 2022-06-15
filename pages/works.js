@@ -9,6 +9,9 @@ import VoxelDog from '../components/layout/voxel-dog';
 import NoSsr from '../components/layout/no-ssr';
 import thumbPacman from '../public/images/work/puckman.png'
 import thumbNadimiel from '../public/images/work/nadimiel.jpg'
+import thumbHomepage from '../public/images/work/homepage1.png'
+import thumbHomepage1 from '../public/images/work/homepage2.png'
+
 
 
 
@@ -34,6 +37,8 @@ const Works = () => {
                     src={thumbPacman}
                     placeholder='blur'
                     loading='lazy'
+                    height={1200}
+                    alt="puckman"
                     />
                     <LinkOverlay href='/works/puckman'>
                         <Text mt={2} fontSize={20}>
@@ -64,13 +69,61 @@ const Works = () => {
                     src={thumbNadimiel}
                     placeholder='blur'
                     loading='lazy'
+                    height={1200}
+                    alt="nadimiel"
                     />
                     <LinkOverlay href='/works/nadimiel'>
                         <Text mt={2} fontSize={20}>
-                            Puckman Returns
+                            Nadimiel Charamel
                         </Text>
                     </LinkOverlay>
-                    <Text fontSize={14}>A Modern Pacman Game </Text>
+                    <Text fontSize={14}>An SME website for a Restaurant Based in Mauritius Island. </Text>
+                  </LinkBox>
+                  </NextLink>
+                </Box>
+              </Section>
+
+              <Section>
+                <Box w="100%" textAlign="center">
+                  <NextLink href="/works/homepage1" scroll={false}>
+                  <LinkBox cursor="pointer">
+                  <Image 
+                     id='homepage1'
+                    src={thumbHomepage}
+                    placeholder='blur'
+                    loading='lazy'
+                    height={1200}
+                    alt="homepage1"
+                    />
+                    <LinkOverlay href='/works/homepage1'>
+                        <Text mt={2} fontSize={20}>
+                            Henry Profile Page (previous)
+                        </Text>
+                    </LinkOverlay>
+                    <Text fontSize={14}>My homepage desgined with bootstrap featuring past activities </Text>
+                  </LinkBox>
+                  </NextLink>
+                </Box>
+              </Section>
+
+              <Section>
+                <Box w="100%" textAlign="center">
+                  <NextLink href="/works/homepage2" scroll={false}>
+                  <LinkBox cursor="pointer">
+                  <Image 
+                     id='homepage2'
+                    src={thumbHomepage1}
+                    placeholder='blur'
+                    loading='lazy'
+                    height={1200}
+                    alt="homepage2"
+                    />
+                    <LinkOverlay href='/works/homepage2'>
+                        <Text mt={2} fontSize={20}>
+                            Henry Profile Page (new)
+                        </Text>
+                    </LinkOverlay>
+                    <Text fontSize={14}>My homepage desgined with React, NextJS, ThreeJS, Chakra UI, Framer Motion </Text>
                   </LinkBox>
                   </NextLink>
                 </Box>
