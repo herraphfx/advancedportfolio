@@ -70,7 +70,7 @@ function Page() {
     </Section>
     <Section delay={0.2}>
         <Heading as="h3" variant="section-title" textDecoration="underline" lineHeight={1.8}>
-          Bio
+          Bio.
         </Heading>
         
         <Biosection>
