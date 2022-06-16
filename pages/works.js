@@ -7,10 +7,12 @@ import Image from 'next/image'
 import NextLink from 'next/link'
 import VoxelDog from '../components/layout/voxel-dog';
 import NoSsr from '../components/layout/no-ssr';
+
 import thumbPacman from '../public/images/work/puckman.png'
 import thumbNadimiel from '../public/images/work/nadimiel.jpg'
 import thumbHomepage from '../public/images/work/homepage1.png'
 import thumbHomepage1 from '../public/images/work/homepage2.png'
+import thumbProductivity from '../public/images/work/productivity_a.png'
 
 
 
@@ -124,6 +126,29 @@ const Works = () => {
                         </Text>
                     </LinkOverlay>
                     <Text fontSize={14}>My homepage desgined with React, NextJS, ThreeJS, Chakra UI, Framer Motion </Text>
+                  </LinkBox>
+                  </NextLink>
+                </Box>
+              </Section>
+
+              <Section>
+                <Box w="100%" textAlign="center">
+                  <NextLink href="/works/productivity" scroll={false}>
+                  <LinkBox cursor="pointer">
+                  <Image 
+                     id='productivity'
+                    src={thumbProductivity}
+                    placeholder='blur'
+                    loading='lazy'
+                    height={1200}
+                    alt="homepage2"
+                    />
+                    <LinkOverlay href='/works/homepage2'>
+                        <Text mt={2} fontSize={20}>
+                           A Simple productivity App
+                        </Text>
+                    </LinkOverlay>
+                    <Text fontSize={14}>A Simple productivity app to manage daily individual and office activities </Text>
                   </LinkBox>
                   </NextLink>
                 </Box>

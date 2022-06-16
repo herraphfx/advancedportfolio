@@ -113,6 +113,22 @@ function Page() {
           </NextLink>
         </Biosection>
     </Section>
+    <Section delay={0.2}>
+      <Heading as="h3" variant="section-title"  textDecoration="underline" lineHeight={1.8}>
+        Core Competencies
+      </Heading>
+      <Paragraph>
+        Team Work, Problem-Solving, Team and People Management, Analytical and Critical Thinking, Client and Time Management, Effective Communication, Research and Documentation.
+      </Paragraph>
+    </Section>
+    <Section delay={0.3}>
+      <Heading as="h3" variant="section-title"  textDecoration="underline" lineHeight={1.8}>
+        Technical Skills
+      </Heading>
+      <Paragraph>
+        ReactJS, NextJS, Javascript, ThreeJS, HTML5, Tailwind CSS, CSS3, Redux, JQuery, GitHub
+      </Paragraph>
+    </Section>
     <Section delay={0.3}>
       <Heading as="h3" variant="section-title"  textDecoration="underline" lineHeight={1.8}>
         I ♥
