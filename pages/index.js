@@ -53,7 +53,7 @@ function Page() {
     </Box>
     <Section delay={0.1}>
       <Heading as="h3" variant="section-title" textDecoration="underline" lineHeight={1.8}>
-        About
+        About.
       </Heading>
       <Paragraph>
         Henry is a Full Stack Developer with passion for building world class digital products
@@ -115,7 +115,7 @@ function Page() {
     </Section>
     <Section delay={0.2}>
       <Heading as="h3" variant="section-title"  textDecoration="underline" lineHeight={1.8}>
-        Core Competencies
+        Core Competencies.
       </Heading>
       <Paragraph>
         Team Work, Problem-Solving, Team and People Management, Analytical and Critical Thinking, Client and Time Management, Effective Communication, Research and Documentation.
@@ -123,7 +123,7 @@ function Page() {
     </Section>
     <Section delay={0.3}>
       <Heading as="h3" variant="section-title"  textDecoration="underline" lineHeight={1.8}>
-        Technical Skills
+        Technical Skills.
       </Heading>
       <Paragraph>
         ReactJS, NextJS, Javascript, ThreeJS, HTML5, Tailwind CSS, CSS3, Redux, JQuery, GitHub
@@ -131,7 +131,7 @@ function Page() {
     </Section>
     <Section delay={0.3}>
       <Heading as="h3" variant="section-title"  textDecoration="underline" lineHeight={1.8}>
-        I ♥
+        I ♥.
       </Heading>
       <Paragraph>
         Art, Blogging, Coding, Music, Swimming, Board Games.
@@ -139,7 +139,7 @@ function Page() {
     </Section>
     <Section delay={0.3}>
       <Heading as="h3" variant="section-title" textDecoration="underline" lineHeight={1.8}>
-        On the Web
+        On the Web.
       </Heading>
       <List>
         <ListItem>
