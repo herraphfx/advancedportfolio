@@ -8,10 +8,18 @@ import NextLink from 'next/link'
 import VoxelDog from '../components/layout/voxel-dog';
 import NoSsr from '../components/layout/no-ssr';
 import { IoLogoTwitter , IoLogoGithub, IoLogoLinkedin} from 'react-icons/io5'
+import Head from 'next/head'
 
 function Page() {
   return (
     <div>
+      <Head>
+        <title>The Office of Henry Oko </title>
+     <meta name="Henry Oko Developer" content="A Result Oriented HTML/CSS React JS Next JS Javascript Developer. Programming for the future. Read My Posts on dev.to/herraphfx . I believe Real change—big change—takes many years and requires each generation to embrace the obligations and opportunities that come with the title of Citizen." />
+     <meta name="keywords" content="HTML5, CSS3, JavaScript, ReactJS, NextJS, TailWindCSS, Postgre, MySQL, dev.to/herraphfx" />
+     <meta property="og:type" content='website'  />
+     <meta name="author" content="Henry Oko"></meta>
+      </Head>
       <Navbar/>
       
     <Container maxW="container.md" pt={14}>
