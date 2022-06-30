@@ -9,8 +9,18 @@ import VoxelDog from '../components/layout/voxel-dog';
 import NoSsr from '../components/layout/no-ssr';
 import { IoLogoTwitter , IoLogoGithub, IoLogoLinkedin} from 'react-icons/io5'
 import Head from 'next/head'
+import { saveAs } from "file-saver";
+
 
 function Page() {
+
+  const saveFile = () => {
+    saveAs(
+      "henry_cv.pdf",
+      "Henry.pdf"
+    );
+  };
+
   return (
     <div>
       <Head>
@@ -71,8 +81,10 @@ function Page() {
       <Box align="center" my={4}>
         <Link href="/works" rel="noopener">
          <Button rightIcon={<ChevronRightIcon/>} colorScheme="teal">Portfolio</Button>
-         
         </Link>
+        <Button onClick={saveFile} MarginLeft={8} color='teal'>Download CV</Button>
+
+        
         
       </Box>
     </Section>
