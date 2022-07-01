@@ -13,6 +13,7 @@ import thumbNadimiel from '../public/images/work/nadimiel.jpg'
 import thumbHomepage from '../public/images/work/homepage1.png'
 import thumbHomepage1 from '../public/images/work/homepage2.png'
 import thumbProductivity from '../public/images/work/productivity_a.png'
+import thumbNetflix from '../public/images/work/netflixhenry.jpg'
 
 
 
@@ -149,6 +150,29 @@ const Works = () => {
                         </Text>
                     </LinkOverlay>
                     <Text fontSize={14}>A Simple productivity app to manage daily individual and office activities </Text>
+                  </LinkBox>
+                  </NextLink>
+                </Box>
+              </Section>
+
+              <Section>
+                <Box w="100%" textAlign="center">
+                  <NextLink href="/works/netflix" scroll={false}>
+                  <LinkBox cursor="pointer">
+                  <Image 
+                     id='netflix'
+                    src={thumbNetflix}
+                    placeholder='blur'
+                    loading='lazy'
+                    height={1200}
+                    alt="netflix"
+                    />
+                    <LinkOverlay href='/works/netflix'>
+                        <Text mt={2} fontSize={20}>
+                           Simple Netflix Clone 
+                        </Text>
+                    </LinkOverlay>
+                    <Text fontSize={14}>Netflix Clone App built with ReactJS, Tailwind CSS and Using Movie Site APIs </Text>
                   </LinkBox>
                   </NextLink>
                 </Box>
