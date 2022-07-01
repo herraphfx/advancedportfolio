@@ -21,7 +21,7 @@ const Work = () => {
                 <P>
                   A productivity application used to manage daily activities and other work related activities 
                 </P>
-                <List ml={4} my={4}>
+                <List ml={4} my={10}>
                     <ListItem>
                         <Meta>Website</Meta>
                         <Link href="https://simple-productivity.vercel.app/">

@@ -21,7 +21,7 @@ const Work = () => {
                 <P>
                    Building a Netflix clone and working with API, Axios, React, Tailwind CSS, Firebase. Session handling with React
                 </P>
-                <List ml={4} my={4}>
+                <List ml={4} my={10}>
                     <ListItem>
                         <Meta>Website</Meta>
                         <Link href="https://henry-netflixclone.vercel.app/">

@@ -21,7 +21,7 @@ const Work = () => {
                 <P>
                    A Homepage Created by Henry using React. 
                 </P>
-                <List ml={4} my={4}>
+                <List ml={4} my={10}>
                     <ListItem>
                         <Meta>Website</Meta>
                         <Link >

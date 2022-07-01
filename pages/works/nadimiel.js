@@ -21,7 +21,7 @@ const Work = () => {
                 <P>
                    Nadimiel Website for SME to automate the processes of daily business activities.
                 </P>
-                <List ml={4} my={4}>
+                <List ml={4} my={10}>
                     <ListItem>
                         <Meta>Website</Meta>
                         <Link href="https://nadimiel-chamarel.herokuapp.com/">

@@ -21,7 +21,7 @@ const Work = () => {
                 <P>
                     A Modern pacman game with new User Interface and Simple Grid. Built for entertainment and the code is available for improvement.
                 </P>
-                <List ml={4} my={4}>
+                <List ml={4} my={10}>
                     <ListItem>
                         <Meta>Website</Meta>
                         <Link href="https://puckman-returns.netlify.app/">

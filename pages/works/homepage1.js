@@ -21,9 +21,9 @@ const Work = () => {
                 <P>
                    A Homepage profile formerly used by me. 
                 </P>
-                <List ml={4} my={4}>
-                    <ListItem>
-                        <Meta>Website</Meta>
+                <List ml={4} my={10}>
+                    <ListItem >
+                        <Meta >Website</Meta>
                         <Link href="https://herraphfx.github.io/">
                            Homepage(previous) <ExternalLinkIcon mx="2px"/>
                         </Link>
