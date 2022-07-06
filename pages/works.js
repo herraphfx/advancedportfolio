@@ -14,6 +14,7 @@ import thumbHomepage from '../public/images/work/homepage1.png'
 import thumbHomepage1 from '../public/images/work/homepage2.png'
 import thumbProductivity from '../public/images/work/productivity_a.png'
 import thumbNetflix from '../public/images/work/netflixhenry.jpg'
+import thumbTesla from '../public/images/work/tesla.jpg'
 
 
 
@@ -169,10 +170,33 @@ const Works = () => {
                     />
                     <LinkOverlay href='/works/netflix'>
                         <Text mt={2} fontSize={20}>
-                           Simple Netflix Clone 
+                           Netflix Clone 
                         </Text>
                     </LinkOverlay>
                     <Text fontSize={14}>Netflix Clone App built with ReactJS, Tailwind CSS and Using Movie Site APIs </Text>
+                  </LinkBox>
+                  </NextLink>
+                </Box>
+              </Section>
+
+              <Section>
+                <Box w="100%" textAlign="center">
+                  <NextLink href="/works/tesla" scroll={false}>
+                  <LinkBox cursor="pointer">
+                  <Image 
+                     id='tesla'
+                    src={thumbTesla}
+                    placeholder='blur'
+                    loading='lazy'
+                    height={1200}
+                    alt="tesla"
+                    />
+                    <LinkOverlay href='/works/tesla'>
+                        <Text mt={2} fontSize={20}>
+                           Tesla website clone 
+                        </Text>
+                    </LinkOverlay>
+                    <Text fontSize={14}>Tesla Clone App built with ReactJS, Tailwind CSS and Material UI</Text>
                   </LinkBox>
                   </NextLink>
                 </Box>
